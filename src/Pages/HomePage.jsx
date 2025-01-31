@@ -13,6 +13,12 @@ const HomePage = () => {
         >
           ➜ Item List Manager
         </Link>
+        <Link
+          to="/SlideShow"
+          className="flex items-center gap-2 text-lg font-semibold  hover:translate-x-2 transition-transform duration-300"
+        >
+          ➜ Slide Show
+        </Link>
       </div>
     </div>
   );
